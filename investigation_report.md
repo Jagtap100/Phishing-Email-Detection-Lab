@@ -1,23 +1,43 @@
-# Phishing Email Investigation
+# 🔍 Phishing Email Investigation Report
 
-## Objective
-Analyze a simulated phishing email and identify suspicious indicators.
+## Incident Overview
 
-## Findings
-- Urgent language used
-- Generic recipient greeting
+A simulated phishing email was analyzed as part of a SOC investigation exercise.
+
+## Initial Assessment
+
+The email contained several suspicious characteristics:
+
+- Urgent account verification request
+- Generic greeting
 - Suspicious sender characteristics
-- Request for account verification
+- Social engineering language
+- Potential attempt to influence user behavior
+
+## Investigation Process
+
+1. Reviewed the sender and email characteristics.
+2. Analyzed the subject and message content.
+3. Identified potential phishing indicators.
+4. Documented relevant IOCs.
+5. Assessed the potential risk.
+6. Mapped the activity to MITRE ATT&CK.
+7. Recommended SOC response actions.
 
 ## Severity
-Medium
 
-## Recommended SOC Actions
-1. Validate the sender.
-2. Extract and investigate IOCs.
-3. Search SIEM for related activity.
-4. Check whether other users received the email.
-5. Escalate if malicious activity is confirmed.
+Medium – Suspicious / Potential Phishing
+
+## Recommended Response
+
+- Investigate the sender and associated indicators.
+- Search SIEM and email logs for related activity.
+- Determine whether other users received the same message.
+- Monitor potentially affected accounts.
+- Escalate if malicious activity is confirmed.
 
 ## Conclusion
-The email shows characteristics commonly associated with phishing and should be investigated before any user interaction.
+
+The simulated email demonstrated characteristics commonly associated with phishing. The investigation workflow shows how a SOC analyst can identify suspicious indicators, assess severity, document findings, and recommend appropriate response actions.
+
+> This is a simulated cybersecurity training scenario. No real credentials, personal information, or malicious infrastructure are used.
