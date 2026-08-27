@@ -1,0 +1,15 @@
+From: security-alert@example-training.com
+Subject: Urgent Account Verification Required
+
+Hello User,
+
+Your account requires verification.
+Please review your account information immediately.
+
+This is a simulated phishing email created for cybersecurity training.
+
+Indicators:
+- Urgency
+- Generic greeting
+- Suspicious request
+- Unusual sender domain
